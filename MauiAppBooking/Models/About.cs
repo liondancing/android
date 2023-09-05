@@ -8,5 +8,8 @@ namespace MauiAppBooking.Models
 {
     internal class About
     {
+        public string Name { get; set; }
+        public int Version {  get; set; }
+        public string VersionString { get; set; }
     }
 }
